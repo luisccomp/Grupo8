@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Donkey Kode</title>
-    <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/estilos.css" />
     <link rel="shortcut icon" href="assets/img/monitor.svg" />
 </head>
@@ -47,11 +47,11 @@
                 <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="carousel-item active">                    
+                <div class="carousel-item active">
                     <div class="container">
                         <div class="carousel-caption text-left">
                             <h1>Cultura digital</h1>
-                            <img width="45" height="45" src="assets/img/monitor.svg"/>
+                            <img width="45" height="45" src="assets/img/monitor.svg" />
                             <p>
                                 Com um mundo cada vez mais digital e globalizado, é muito importante que sua empresa
                                 também faça parte dele. Venha fazer parte desse mundo com a gente, nossa empresa
@@ -66,19 +66,31 @@
                     <div class="container">
                         <div class="carousel-caption">
                             <h1>As melhores ferramentas</h1>
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
-                                gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                            <img src="assets/img/design-grafico.svg" width="45" height="45" />
+                            <p>
+                                Nós da Donkey Kode utilizamos o que há de melhor em tecnologias e frameworks modernos
+                                para entregar as melhores soluções.
+                            </p>
+                            <p><a class="btn btn-lg btn-success" href="#techs" role="button">Conheça nossa stack</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container">
                         <div class="carousel-caption text-right">
-                            <h1>One more for good measure.</h1>
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
-                                gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                            <h1>Conheça a nossa newsletter</h1>
+                            <img src="assets/img/doc.svg" width="45" height="45" alt="newsletter" />
+                            <p>
+                                Se inscreva na nossa newsletter para ficar por dentro de tudo que acontece na Donkey
+                                Kode. Receba em seu email dicas, materiais, webinars e oportunidades de trabalho.
+                            </p>
+                            <!--<p><a class="btn btn-lg btn-danger" href="#" role="button">Inscreva-se</a></p>-->
+                            <p>
+                                <button type="button" class="btn btn-lg btn-danger" data-toggle="modal"
+                                    data-target="#exampleModal">
+                                    Assine nossa newsletter
+                                </button>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -110,38 +122,73 @@
         </div>
     </section>
 
+    <!--Tecnologias utilizadas-->
     <section class="marketing" id="techs">
         <div class="container">
             <h2>Sobre nossa Stack de tecnologia</h2>
             <p class="lead">Um pouco sobre as tecnologias empregadas na nossa Stack de desenvolvimento.</p>
             <div class="row">
-            <div class="col-lg-4">
-                <img src="assets/img/angular.svg" width="140" height="140" alt="angular">
-                <h2>Angular</h2>
-                <p>
-                    Angular é um framework Web baseado em Typescript desenvolvido pela Google para criar <i>Single-Page Applications</i> robustas.
-                    Aqui na Donkey Kode utilizamos da confiabilidade e da robustez do Angular para entregar as melhores soluções do mercado.
-                </p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                <div class="col-lg-4">
+                    <img src="assets/img/angular.svg" width="140" height="140" alt="angular">
+                    <h2>Angular</h2>
+                    <p>
+                        Angular é um framework Web baseado em Typescript desenvolvido pela Google para criar
+                        <i>Single-Page Applications</i> robustas.
+                        Aqui na Donkey Kode utilizamos da confiabilidade e da robustez do Angular para entregar as
+                        melhores soluções do mercado.
+                    </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="assets/img/spring.svg" width="140" height="140" alt="spring">
+                    <h2>Spring framework</h2>
+                    <p>
+                        O Spring Framework é um framework para aplicações web no back-end mantido pela Pivotal. Esse
+                        framework baseado em Inversão de Controle
+                        e injeção de dependência é uma das melhores alternativas do mercado quando se trata de
+                        maturidade e confiabilidade.
+                    </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="assets/img/ionic.svg" width="140" height="140" alt="spring">
+                    <h2>Ionic</h2>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
+                        ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                        Praesent commodo cursus magna.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div>
             </div>
-            <div class="col-lg-4">
-                <img src="assets/img/spring.svg" width="140" height="140" alt="spring">
-                <h2>Spring framework</h2>
-                <p>
-                    O Spring Framework é um framework para aplicações web no back-end mantido pela Pivotal. Esse framework baseado em Inversão de Controle
-                    e injeção de dependência é uma das melhores alternativas do mercado quando se trata de maturidade e confiabilidade.
-                </p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <img src="assets/img/ionic.svg" width="140" height="140" alt="spring">
-                <h2>Ionic</h2>
-                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div>
-        </div>
         </div>
     </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Informe seu email e assine nossa newsletter</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Endereço de email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">
+                                Não se preocupe, nós não iremos compartilhar seu endereço de email com ninguém.
+                            </small>
+                        </div>
+                        <button type="submit" class="btn btn-warning">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--Rodapé-->
     <footer class="footer mt-auto py-3 navbar fixed-bottom">
