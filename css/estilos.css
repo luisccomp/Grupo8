@@ -30,6 +30,7 @@ code {
     background: #FFF;
     padding-bottom: 10px;
     padding-top: 10px;
+    scroll-behavior: smooth;
 }
 
 #techs {
