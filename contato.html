@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donkey Kode</title>
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <link rel="shortcut icon" href="assets/img/monitor.svg" />
+</head>
+
+<body>
+    <!--Menu de navegação do site-->
+    <!--Incluir de volta: navbar-dark bg-dark-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark transparent">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/codigo.png" width="50" height="50" alt="Donkey Kode Logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Página inicial </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contato.html">Contato <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="midia.html">Mídia</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--O conteúdo principal do site vai aqui-->
+    <main role="main" class="flex-shrink-0 bg-light text-dark">
+        <div class="container bg-light text-dark">
+            <section id="form_contato">
+                <form action="#" method="post">
+                    <h2>Formulário de Contato</h2>
+                    <p>Entre em contato conosco! estamos ansiosos para lhe responder o mais rápido possível</p>
+                    <div class="form-group">
+                        <label for="nome_form">Nome</label>
+                        <input type="text" class="form-control" name="nome_form" id="nome_form" placeholder="Insira seu Nome!" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email_form">E-Mail</label>
+                        <input type="email" class="form-control" name="email_form" id="email_form" aria-describedby="texto_ajuda_email" placeholder="Insira seu E-mail" required>
+                        <small id="texto_ajuda_email" class="form-text text-muted">Exemplo: fulano@organização.com.br</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="assunto_form">Assunto</label>
+                        <select class="form-control" name="assunto_form" id="assunto_form" required>
+                        <option>Orçamento</option>
+                        <option>Reclamação</option>
+                        <option>Sugestão</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="texto_form">Comentário</label>
+                        <textarea class="form-control" name="texto_form" id="texto_form" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar!</button>
+                </form>
+
+            </section>
+        </div>
+    </main>
+
+
+    <!--Rodapé-->
+    <footer class="footer mt-auto py-3 navbar fixed-bottom">
+        <div class="container">
+            <span class="text-muted">&copy; Grupo 8 - Santander Coders 2020</span>
+        </div>
+    </footer>
+    <script src="lib/jquery/js/jquery-3.5.1.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
