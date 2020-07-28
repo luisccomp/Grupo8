@@ -39,7 +39,7 @@
     </nav>
 
     <!--O conteúdo principal do site vai aqui-->
-    <main role="main" class="flex-shrink-0">
+    <header class="flex-shrink-0">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -104,9 +104,9 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </main>
+    </header>
 
-    <section id="aboutUs">
+    <main role="main" id="aboutUs">
         <div class="container">
             <h1 class="mt-5">Sobre a Donkey Kode</h1>
             <p class="lead">
@@ -120,7 +120,7 @@
                 conosco ou venha fazer parte do nosso time.
             <p>Entre em <a href="/docs/4.5/examples/sticky-footer/">contato</a> conosco para saber mais detalhes.</p>
         </div>
-    </section>
+    </main>
 
     <!--Tecnologias utilizadas-->
     <section class="marketing" id="techs">
@@ -137,7 +137,11 @@
                         Aqui na Donkey Kode utilizamos da confiabilidade e da robustez do Angular para entregar as
                         melhores soluções do mercado.
                     </p>
-                    <p><a class="btn btn-outline-danger" href="https://angular.io/" role="button">Sobre o Angular &raquo;</a></p>
+                    <p>
+                        <a class="btn btn-outline-danger" href="https://angular.io/" role="button" target="_blank">
+                            Sobre o Angular &raquo;
+                        </a>
+                    </p>
                 </div>
                 <div class="col-lg-4">
                     <img src="assets/img/spring.svg" width="140" height="140" alt="spring">
@@ -149,7 +153,9 @@
                         maturidade e confiabilidade.
                     </p>
                     <p>
-                        <a class="btn btn-outline-success" href="https://spring.io/" role="button">Sobre o Spring &raquo;</a>
+                        <a class="btn btn-outline-success" href="https://spring.io/" role="button" target="_blank">
+                            Sobre o Spring &raquo;
+                        </a>
                     </p>
                 </div>
                 <div class="col-lg-4">
@@ -161,7 +167,7 @@
                         e funcionais, preparando inseriindo sua empresa no mundo dos aplicativos móveis.
                     </p>
                     <p>
-                        <a class="btn btn-outline-primary" href="https://ionicframework.com/" role="button">
+                        <a class="btn btn-outline-primary" href="https://ionicframework.com/" target="_blank" role="button">
                             Sobre o Ionic &raquo;
                         </a>
                     </p>
