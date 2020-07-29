@@ -1,11 +1,4 @@
 @import url('carousel.css');
-body {
-    background: url("../assets/img/architecture-buildings-business-city-374870.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 
 main>.container {
     padding: 60px 15px 0;
