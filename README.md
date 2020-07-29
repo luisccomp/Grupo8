@@ -1,6 +1,6 @@
 # Trabalho 1 - Grupo 8
 
-Integrantes:
+Integrantes: \
 Luís Carlos \
 Thiago Zaleski \
 Jemilson Vidal
